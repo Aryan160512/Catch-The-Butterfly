@@ -1,11 +1,11 @@
 import pgzrun
 
 WIDTH = 800
-HEIGHT = 800
-TTTLE = 'Catch the Butterfly'
+HEIGHT = 450
+TITLE = 'Catch the Butterfly Game'
 
 butterfly = Actor('butterfly')
-butterfly.pos = (150, 150)
+butterfly.pos = (400, 225)
 
 def draw():
     screen.clear()
